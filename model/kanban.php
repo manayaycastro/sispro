@@ -1,7 +1,7 @@
 <?php
 
 require_once 'conexion.php';
-
+// comentario agregado
 class kanban {
 
     private $objPdo;
