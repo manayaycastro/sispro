@@ -1,0 +1,2 @@
+* SE AUMENTO ELTAMAÑO EN MB DE ARCHIVOS A SUBIR EN LOS DISEÑOS
+	(este requerimiento se llevo acabo tbm en el sistema de produccion, ambos en paralelo)

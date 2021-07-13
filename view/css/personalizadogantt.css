@@ -1,0 +1,205 @@
+#mdialTamanio{
+                width: 90% !important;
+            }
+table {
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+}
+
+th {
+  height: 6rem; /* Alto fijo de las dos primeras filas */
+}
+
+.fijar-headcol {
+  position: absolute;
+  height: 6rem; /*Doble de alto de la primera fila*/
+  background-color: #85c885;
+  /* Centramos */
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.headcol {
+  display: block;
+  width: 30rem; /* Ancho fijo de la primera columna */
+}
+
+.fijar {
+  position: absolute;
+  width: 30rem; /* Ancho fijo de la primera columna */
+  background-color: #97e3ae;
+}
+.fijar2 {
+  position: absolute;
+  width: 15rem; /* Ancho fijo de la primera columna */
+  background-color: #bc9f9f;
+}
+ .fijar-headcol2 {
+  position: absolute;
+  height: 6rem; /*Doble de alto de la primera fila*/
+  background-color: #85c885;
+  /* Centramos */
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+ 
+ 
+ /*
+ 
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <table cellspacing="0" width="100%" class="table table-bordered table-responsive display compact no-wrap">
+        <thead>
+          <tr id="chargedaysheader">
+            <th class="headcol fijar-headcol">FIXED</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+            <th colspan="2">X</th>
+          </tr>
+          <tr id="chargelegendheader">
+            <th scope="row" class="headcol">
+              <div class="sr-only">FIXED</div>
+            </th><!-- Utilizo esto para lograr un espacio entre las th fijas y las td, de paso nos ayudará con la accesibilidad -->
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+            <th>XXXXXXXXXXXX</th>
+          </tr>
+        </thead>
+        <tbody id="chargetabledata">
+          <tr>
+            <th scope="row" class="fijar">FIXED</th>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+          </tr>
+          <tr>
+            <th scope="row" class="fijar">FIXED</th>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>0.0T</td>
+            <td>100.0%</td>
+            <td>1.9T</td>
+            <td>38.1%</td>
+            <td>15.0T</td>
+            <td>83.6%</td>
+            <td>8.6T</td>
+            <td>22.6%</td>
+          </tr>
+          <tr>
+            <th scope="row" class="fijar">FIXED</th>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+            <td>0.0T</td>
+            <td>0.0%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+  
+ 
+ * */
+
+
+
